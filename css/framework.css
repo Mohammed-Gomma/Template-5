@@ -1,0 +1,293 @@
+/* ? Start Root */
+:root {
+    --hover-sidebar: #f6f6f6;
+    --hover-a : #0d69d5;
+    --gray-color: #888;
+    --green-color: #22c55e;
+    --blue-color: #0075ff;
+    --orange-color: #f59e0b;
+    --red-color: #f44336;
+    --main-transition: 0.3s;
+}
+/* ? End Root */
+/* ? Start Global Rolls */
+.p-relative {
+    position: relative;
+}
+.p-absolute {
+    position: absolute;
+}
+.p-20 {
+    padding: 20px;
+}
+.p-10 {
+    padding: 10px;
+}
+.p-15 {
+    padding: 15px;
+}
+.pt-10 {
+    padding-top: 10px;
+}
+.pt-15 {
+    padding-top: 15px;
+}
+.pt-20 {
+    padding-top: 20px;
+}
+.pr-10 {
+    padding-right: 10px;
+}
+.pr-15 {
+    padding-right: 15px;
+}
+.pb-15 {
+    padding-bottom: 15px;
+}
+.pb-10 {
+    padding-bottom: 10px;
+}
+.pb-20 {
+    padding-bottom: 20px;
+}
+.pl-15 {
+    padding-left: 15px;
+}
+.pl-30 {
+    padding-left: 30px;
+}
+.pl-70 {
+    padding-left: 70px;
+}
+.between-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bg-white {
+    background-color: white;
+}
+.bg-eee {
+    background-color: #eee;
+}
+.bg-blue {
+    background-color: #0075ff;
+}
+.bg-orange {
+    background-color: #f59e0b;
+}
+.bg-green {
+    background-color: #22c55e;
+}
+.bg-red {
+    background-color: #f44336;
+}
+.bg-twitter {
+    background-color: #1da1f2;
+}
+.bg-facebook {
+    background-color: #1877f2;
+}
+.bg-youtube {
+    background-color: #ff0000;
+}
+.bg-linkedin {
+    background-color: #0077b5;
+}
+.border-ccc {
+    border: 1px solid #ccc;
+}
+.border-eee-1 {
+    border: 1px solid #eee;
+}
+.border-eee {
+    border: 2px solid #eee;
+}
+.border-top-eee {
+    border-top: 1px solid #eee;
+}
+.border-bottom-eee {
+    border-bottom: 1px solid #eee;
+}
+.bor-n {
+    border: none;
+}
+.bor-left-bl {
+    border-left: 2px solid var(--blue-color);
+}
+.bor-left-gr {
+    border-left: 2px solid var(--green-color);
+}
+.bor-left-or {
+    border-left: 2px solid var(--orange-color);
+}
+.bor-left-re {
+    border-left: 2px solid var(--red-color);
+}
+.txt-c {
+    text-align: center;
+}
+@media (max-width:767px) {
+    .txt-c-mobile {
+        text-align: center;
+    }
+    .d-block-mobile {
+        display: block;
+    }
+}
+.rad-3 {
+    border-radius: 3px;
+}
+.rad-6 {
+    border-radius: 6px;
+}
+.rad-10 {
+    border-radius: 10px;
+}
+.fs-13 {
+    font-size: 13px;
+}
+.fs-14 {
+    font-size: 14px;
+}
+.fs-25 {
+    font-size: 25px;
+}
+.fw-bol {
+    font-weight: bold;
+}
+.fw-normal {
+    font-weight: normal;
+}
+.c-black {
+    color: black;
+}
+.align-center {
+    align-items: center;
+}
+.d-flex {
+    display: flex;
+}
+.f-wrap {
+    flex-wrap: wrap;
+}
+.f-gap {
+    gap: 20px;
+}
+.d-block {
+    display: block;
+}
+.transition {
+    transition: 0.3s;
+}
+.w-full {
+    width: 100%;
+}
+.h-full {
+    height: 100%;
+}
+.d-grid {
+    display: grid;
+}
+.gap-grid {
+    gap: 20px;
+}
+.m-0 {
+    margin: 0;
+}
+.m-15 {
+    margin: 15px;
+}
+.m-20 {
+    margin: 20px;
+}
+.mt-5 {
+    margin-top: 5px;
+}
+.mt-0 {
+    margin-top: 0px;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+.mt-15 {
+    margin-top: 15px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.mt-25 {
+    margin-top: 25px;
+}
+.mr-5 {
+    margin-right: 5px;
+}
+.mr-10 {
+    margin-right: 10px;
+}
+.mr-15 {
+    margin-right: 15px;
+}
+.mb-5 {
+    margin-bottom: 5px;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.mb-25 {
+    margin-bottom: 25px;
+}
+.mb-15 {
+    margin-bottom: 15px;
+}
+.mb-16 {
+    margin-bottom: 16px;
+}
+.ml-20 {
+    margin-left: 20px;
+}
+.fs-15 {
+    font-size: 15px;
+}
+.c-gray {
+    color: #888888;
+}
+.c-white {
+    color: white;
+}
+.c-blue {
+    color: var(--blue-color);
+}
+.c-orange {
+    color: var(--orange-color);
+}
+.c-green {
+    color: var(--green-color);
+}
+.c-red {
+    color: var(--red-color);
+}
+.center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-c {
+    text-align: center;
+}
+.w-fit {
+    width: fit-content;
+}
+.btn-a {
+    padding: 4px 10px;
+    margin: 0px 20px 20px auto;
+    border-radius: 6px;
+}
+.btn-shape {
+    padding: 4px 10px;
+    border-radius: 6px;
+}
+/* ? End Global Rolls */
